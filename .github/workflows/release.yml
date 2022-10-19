@@ -204,7 +204,7 @@ jobs:
     - name: Chocolatey - pack
       if: startsWith(github.ref, 'refs/tags/stable')
       # crazy-max/ghaction-chocolatey@v1.2.2
-      uses: crazy-max/ghaction-chocolatey@55c91883732fd892124a2d957cd02e4682aa6fc5
+      uses: crazy-max/ghaction-chocolatey@90deb87d9fbf0bb2f022b91e3bf11b4441cddda5
       with:
         args: pack bin/win/linkerd.nuspec
     - name: Chocolatey - upload package
