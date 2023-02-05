@@ -1509,10 +1509,19 @@
     jest-validate "^26.5.2"
     lodash.get "^4.4.2"
 
-"@lingui/core@3.16.0", "@lingui/core@^3.15.0":
+"@lingui/core@3.16.0":
   version "3.16.0"
   resolved "https://registry.yarnpkg.com/@lingui/core/-/core-3.16.0.tgz#ac61cbd617428fe2515cdace6e2080f6c8a7b0d3"
   integrity sha512-2uZvxHv4IWF7xIRG1o4oXDFCrAhE0945Ses1eALmv/NqQ8BslXWWSq0Zf51qt+ZqQ3RfzCdl4kslZEqdGRe0gw==
+  dependencies:
+    "@babel/runtime" "^7.11.2"
+    "@messageformat/parser" "^5.0.0"
+    make-plural "^6.2.2"
+
+"@lingui/core@3.17.0", "@lingui/core@^3.15.0":
+  version "3.17.0"
+  resolved "https://registry.yarnpkg.com/@lingui/core/-/core-3.17.0.tgz#c83b562335b9e81ce3f622cfb45d77d6a6899752"
+  integrity sha512-mmaZykH7zdidUSiG0s4rjwObDfKd5BD+jmWy6x2p1tnxrzRAG9x7DicX+p/F2JOIylP+tb2DcUPnWN+STK0HCg==
   dependencies:
     "@babel/runtime" "^7.11.2"
     "@messageformat/parser" "^5.0.0"
@@ -1527,13 +1536,13 @@
     "@lingui/conf" "3.16.0"
     ramda "^0.27.1"
 
-"@lingui/react@3.16.0":
-  version "3.16.0"
-  resolved "https://registry.yarnpkg.com/@lingui/react/-/react-3.16.0.tgz#7f592a9387a1e73946c2cfe6809669513b8f8d00"
-  integrity sha512-0ZoiRXuEJIRDqqwfnbpuF8cXiQ3ZdAwnCTq1ftAk0ya+MKaW09sFjsRtqJG2dUYOAyOpQtpb5pOsi8IWKkw1MA==
+"@lingui/react@3.17.0":
+  version "3.17.0"
+  resolved "https://registry.yarnpkg.com/@lingui/react/-/react-3.17.0.tgz#ab24445099a582d6f01996dc8cb635f4efcd3f5b"
+  integrity sha512-60AWJ6qj+XGYddgocFNAXm1Qsd5tVuSYJxnMeZ4RhJ0vostSaU2VCDDx4/ghI4Svmi5FMUi7j1TpuwiQe7yAlQ==
   dependencies:
     "@babel/runtime" "^7.11.2"
-    "@lingui/core" "3.16.0"
+    "@lingui/core" "3.17.0"
 
 "@material-ui/core@4.12.4":
   version "4.12.4"
